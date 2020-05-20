@@ -1,6 +1,6 @@
 //网络请求封装
 let ajaxTimes = 0
-const BASE_URL = 'https://autumnfish.cn'
+const BASE_URL = '地址已隐藏，需要请联系作者'
 export const request = (options) => {
 	ajaxTimes++
 	uni.showLoading({
