@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "nav-bar": "/components/private/find/navbar/navbar",
+    "my-swiper": "/components/private/find/swiper/swiper",
+    "recommend": "/components/private/find/recommend/recommend",
+    "song-sheet": "/components/private/find/songsheet/songSheet",
+    "new-music": "/components/private/find/newmusic/newmusic",
+    "new-mv": "/components/private/find/newmv/newmv"
+  }
+}

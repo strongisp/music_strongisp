@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mv-list": "/components/common/mvlist/mvlist"
+  }
+}

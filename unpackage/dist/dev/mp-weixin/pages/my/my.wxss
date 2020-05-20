@@ -1,0 +1,197 @@
+
+page {
+	height: 100%;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主题颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-7f015807 {
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.my-wrap.data-v-7f015807 {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+}
+.my-wrap .nav-bar.data-v-7f015807 {
+  color: #fff;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: rgba(153, 153, 153, 0.2);
+}
+.my-wrap .top-wrap.data-v-7f015807 {
+  padding: 40rpx 20rpx 20rpx;
+  height: 30%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.my-wrap .top-wrap .user-wrap .logon-message.data-v-7f015807 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-img.data-v-7f015807 {
+  margin-right: 30rpx;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-img image.data-v-7f015807 {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-name.data-v-7f015807 {
+  color: #eee;
+  margin-top: 10rpx;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-name .name.data-v-7f015807 {
+  font-size: 28rpx;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-name .modify-message.data-v-7f015807 {
+  height: 32rpx;
+  line-height: 28rpx;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-name .modify-message text.data-v-7f015807 {
+  font-size: 24rpx;
+}
+.my-wrap .top-wrap .user-wrap .logon-message .user-name .modify-message icon.data-v-7f015807 {
+  font-size: 24rpx;
+}
+.my-wrap .top-wrap .user-wrap .signin.data-v-7f015807 {
+  position: absolute;
+  right: 60rpx;
+  top: 70rpx;
+  font-size: 26rpx;
+  color: #fff;
+  background-color: #d00000;
+  padding: 4rpx 20rpx;
+  border-radius: 30rpx;
+}
+.my-wrap .top-wrap .user-wrap .user-power.data-v-7f015807 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 50rpx;
+}
+.my-wrap .top-wrap .user-wrap .user-power .item-wrap.data-v-7f015807 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #eee;
+  font-size: 23rpx;
+}
+.my-wrap .top-wrap .user-wrap .user-power .item-wrap icon.data-v-7f015807 {
+  font-size: 50rpx;
+  padding-bottom: 10rpx;
+}
+.my-wrap .not-logon.data-v-7f015807 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.my-wrap .not-logon .img.data-v-7f015807 {
+  width: 400rpx;
+  height: 300rpx;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: -20rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.my-wrap .not-logon .img image.data-v-7f015807 {
+  width: 400rpx;
+  vertical-align: top;
+}
+.my-wrap .not-logon .img .top-img.data-v-7f015807 {
+  border-radius: 30rpx 30rpx 0 0;
+}
+.my-wrap .bottom-wrap.data-v-7f015807 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 60%;
+  width: 100%;
+  background-color: #fff;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  padding: 20rpx;
+}
+.my-wrap .bottom-wrap .login-button.data-v-7f015807 {
+  width: 60%;
+  border-radius: 40rpx;
+}
+.my-wrap .bottom-wrap .tool-wrap.data-v-7f015807 {
+  width: 100%;
+  margin-top: 100rpx;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style.data-v-7f015807 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #333;
+  background-color: #eee;
+  padding-left: 30rpx;
+  border-top: 1rpx solid #ccc;
+  overflow: hidden;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style.data-v-7f015807:first-child {
+  border-radius: 10rpx 10rpx 0 0;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style.data-v-7f015807:last-child {
+  border-bottom: 1rpx solid #ccc;
+  border-radius: 0 0 10rpx 10rpx;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style .left-icon.data-v-7f015807 {
+  color: #ccc;
+  margin-right: 20rpx;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style .right-icon.data-v-7f015807 {
+  color: #333;
+  padding-right: 40rpx;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style .pos.data-v-7f015807 {
+  float: right;
+}
+.my-wrap .bottom-wrap .tool-wrap .button-style .pos switch.data-v-7f015807 {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+

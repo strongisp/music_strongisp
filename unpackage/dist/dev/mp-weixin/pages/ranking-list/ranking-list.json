@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "nav-bar": "/components/private/ranking-list/nav-bar/nav-bar",
+    "official-list": "/components/private/ranking-list/official-list/official-list",
+    "recommendation-list": "/components/private/ranking-list/recommendation-list/recommendation-list",
+    "global-list": "/components/private/ranking-list/globallist/globallist",
+    "more-list": "/components/private/ranking-list/more-list/more-list"
+  }
+}

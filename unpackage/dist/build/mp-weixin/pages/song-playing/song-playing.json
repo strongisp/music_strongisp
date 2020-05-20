@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "bing-lyric": "/components/common/bing-lyric/bing-lyric"
+  }
+}

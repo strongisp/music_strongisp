@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/find/find",
+    "pages/mv/mv",
+    "pages/yuncun/yuncun",
+    "pages/my/my",
+    "pages/day-recommend/day-recommend",
+    "pages/song-square/song-square",
+    "pages/ranking-list/ranking-list",
+    "pages/radio-station/radio-station",
+    "pages/private-fm/private-fm",
+    "pages/song-sheet/song-sheet",
+    "pages/song-playing/song-playing",
+    "pages/mv-play/mv-play",
+    "pages/search/search",
+    "pages/discover/discover"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "网易云音乐 Experience 版",
+    "navigationBarBackgroundColor": "#ff0000",
+    "backgroundColor": "#F8F8F8",
+    "titleNView": {
+      "titleSize": "30rpx"
+    }
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#ff00000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/images/tabbar/find.png",
+        "selectedIconPath": "static/images/tabbar/find_active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/mv/mv",
+        "iconPath": "static/images/tabbar/mv.png",
+        "selectedIconPath": "static/images/tabbar/mv_active.png",
+        "text": "MV"
+      },
+      {
+        "pagePath": "pages/yuncun/yuncun",
+        "iconPath": "static/images/tabbar/yuncun.png",
+        "selectedIconPath": "static/images/tabbar/yuncun_active.png",
+        "text": "云村"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

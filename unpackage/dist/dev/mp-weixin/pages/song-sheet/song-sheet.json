@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "song": "/components/private/song-sheet/song/song",
+    "hot-comment": "/components/private/song-sheet/hot-comment/hot-comment"
+  }
+}

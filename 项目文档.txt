@@ -1,0 +1,13 @@
+【项目名称】
+	网易云音乐 Experience 版
+【根目录划分】
+	pages目录：存放页面；
+	styles目录：存放公共样式；
+	components目录：存放组件；
+	lib目录：存放第三方库；
+	utils目录：自己的帮助库；
+	network目录：存放网络请求；
+	static目录：存放静态资源；
+	unpackage目录：打包；
+【网络请求】
+	baseUrl：baseapi：https://autumnfish.cn；

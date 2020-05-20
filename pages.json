@@ -1,0 +1,152 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/find/find",
+			"style": {}
+		},
+		{
+			"path": "pages/mv/mv",
+			"style": {}
+		},
+		{
+			"path": "pages/yuncun/yuncun",
+			"style": {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {}
+		},
+		{
+			"path": "pages/day-recommend/day-recommend",
+			"style": {}
+		}, {
+			"path": "pages/song-square/song-square",
+			"style": {}
+		}, {
+			"path": "pages/ranking-list/ranking-list",
+			"style": {}
+		}, {
+			"path": "pages/radio-station/radio-station",
+			"style": {}
+		}, {
+			"path": "pages/private-fm/private-fm",
+			"style": {}
+		}, {
+			"path": "pages/song-sheet/song-sheet",
+			"style": {}
+		}, {
+			"path": "pages/song-playing/song-playing",
+			"style": {
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/mv-play/mv-play",
+			"style": {}
+		}, {
+			"path": "pages/search/search",
+			"style": {}
+		}, {
+			"path": "pages/discover/discover",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "网易云音乐 Experience 版",
+		"navigationBarBackgroundColor": "#ff0000",
+		"backgroundColor": "#F8F8F8",
+		"titleNView": {
+			"titleSize": "30rpx"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#ff0000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/find/find",
+				"iconPath": "static/images/tabbar/find.png",
+				"selectedIconPath": "static/images/tabbar/find_active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/mv/mv",
+				"iconPath": "static/images/tabbar/mv.png",
+				"selectedIconPath": "static/images/tabbar/mv_active.png",
+				"text": "MV"
+			},
+			{
+				"pagePath": "pages/yuncun/yuncun",
+				"iconPath": "static/images/tabbar/yuncun.png",
+				"selectedIconPath": "static/images/tabbar/yuncun_active.png",
+				"text": "云村"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/tabbar/my.png",
+				"selectedIconPath": "static/images/tabbar/my_active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 8, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "每日推荐", //模式名称
+				"path": "pages/day-recommend/day-recommend", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "歌单",
+				"path": "pages/song-square/song-square"
+			},
+			{
+				"name": "排行榜",
+				"path": "pages/ranking-list/ranking-list"
+			},
+			{
+				"name": "电台",
+				"path": "pages/radio-station/radio-station"
+			},
+			{
+				"name": "私人FM",
+				"path": "pages/private-fm/private-fm"
+			},
+			{
+				"name": "歌单详情页面",
+				"path": "pages/song-sheet/song-sheet",
+				"query": "idx=1"
+			},
+			{
+				"name": "音乐播放页面",
+				"path": "pages/song-playing/song-playing",
+				"query": "songId=1436709403&songSheetId=3779629"
+			},
+			{
+				"name": "mv页面",
+				"path": "pages/mv/mv"
+			},
+			{
+				"name": "mv播放页面",
+				"path": "pages/mv-play/mv-play",
+				"query": "mvid=10912840"
+			},
+			{
+				"name": "搜索界面1",
+				"path": "pages/search/search"
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mv-list": "/components/common/mvlist/mvlist",
+    "comment-data": "/components/common/comment/comment"
+  }
+}

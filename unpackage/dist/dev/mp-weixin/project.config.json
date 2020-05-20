@@ -1,0 +1,89 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wx1909fea68fe37b30",
+	"projectname": "net-ease-cloud-music",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"name": "每日推荐",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/day-recommend/day-recommend"
+				},
+				{
+					"name": "歌单",
+					"id": 1,
+					"pathName": "pages/song-square/song-square"
+				},
+				{
+					"name": "排行榜",
+					"id": 2,
+					"pathName": "pages/ranking-list/ranking-list"
+				},
+				{
+					"name": "电台",
+					"id": 3,
+					"pathName": "pages/radio-station/radio-station"
+				},
+				{
+					"name": "私人FM",
+					"id": 4,
+					"pathName": "pages/private-fm/private-fm"
+				},
+				{
+					"name": "歌单详情页面",
+					"query": "idx=1",
+					"id": 5,
+					"pathName": "pages/song-sheet/song-sheet"
+				},
+				{
+					"name": "音乐播放页面",
+					"query": "songId=1436709403&songSheetId=3779629",
+					"id": 6,
+					"pathName": "pages/song-playing/song-playing"
+				},
+				{
+					"name": "mv页面",
+					"id": 7,
+					"pathName": "pages/mv/mv"
+				},
+				{
+					"name": "mv播放页面",
+					"query": "mvid=10912840",
+					"id": 8,
+					"pathName": "pages/mv-play/mv-play"
+				},
+				{
+					"name": "搜索界面1",
+					"id": 9,
+					"pathName": "pages/search/search"
+				}
+			]
+		}
+	}
+}
